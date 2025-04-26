@@ -16,6 +16,8 @@ class Solution {
       for(int i =0;i<answer.length;i++){
          answer[i]=list.get(i);
       }
+      // 점수가 낮게 나온 이유는 아마 굳이 사용해도 되지 않은 List<Integer>을 사용했기 때문 아닐까?
+      // list, cnt 대신 바로 answer[i]++를 더해서 리턴했으면 깔끔했을 것 같다...
       return answer;
    }
 }

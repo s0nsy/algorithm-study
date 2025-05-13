@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//	99904kb	476ms
 public class Main {
    static int[][] sudoku;
    static boolean solved;

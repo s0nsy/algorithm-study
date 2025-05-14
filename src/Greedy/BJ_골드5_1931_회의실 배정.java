@@ -1,6 +1,34 @@
 import java.util.Arrays;
 import java.util.Scanner;
-// 183324kb	1084ms
+// 182560kb	1092ms
+public class Main{
+   public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      int N = sc.nextInt();
+      int[][] arr = new int[N][2];
+      for (int i = 0; i < N; i++) {
+         arr[i][0] = sc.nextInt();
+         arr[i][1] = sc.nextInt();
+      }
+      int max=0;
+      int end=0;
+
+      Arrays.sort(arr, (a, b) -> {
+         if (a[1] == b[1])
+            return Integer.compare(a[0], b[0]);
+         else
+            return Integer.compare(a[1], b[1]);
+      });
+      for(int i=0;i<N;i++){
+         if(arr[i][0]>=end){
+            end=arr[i][1];
+            max++;
+         }
+      }
+      System.out.println(max);
+   }
+}
+// 183324kb	1084ms. 완전탐색
 public class Main {
    static int N, max = 0;
    static int[][] arr;

@@ -20,4 +20,5 @@ class Solution {
       }
       return Math.max(first,dp[house-1]);
    }
+   // 원형 문제를 선형문제로 쪼개기 위해 첫 번째 집을 방문한 경우, 안 한 경우를 나눔.
 }

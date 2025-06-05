@@ -19,7 +19,7 @@
 | 2025-03-17 | [K번째 수](src/Sort/PG_Lv1_K%EB%B2%88%EC%A7%B8%EC%88%98.java)                                  | 정렬      | 🔵Lv.1  | [풀이](https://blog.naver.com/gamakk2/223799781209) |
 | 2025-03-18 | [최소직사각형](src/BruteForce/PG_Lv1_%EC%B5%9C%EC%86%8C%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.java) | 완전탐색    | 🔵Lv.1  |                                                 |
 | 2025-03-18 | [모의고사](src/BruteForce/PG_Lv1_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.java)                                                                                        | 완전탐색    | 🔵Lv.1  |                                                 |
-| 2025-03-19 | 체육복                                                                                         | 그리디     | 🔵Lv.1  | [풀이](https://blog.naver.com/gamakk2/223802861543) |
+| 2025-03-19 | [체육복](src/Greedy/PG_Lv1_%EC%B2%B4%EC%9C%A1%EB%B3%B5.java)                                                                                         | 그리디     | 🔵Lv.1  | [풀이](https://blog.naver.com/gamakk2/223802861543) |
 | 2025-03-21 | N으로 표현                                                                                      | DP      | 🟠Lv.3  | [풀이](https://blog.naver.com/gamakk2/223805073009) |
 | 2025-03-23 | 타겟 넘버                                                                                       | DFS/BFS | 🟢Lv.2  | [풀이](https://blog.naver.com/gamakk2/223806408314) |
 | 2025-03-24 | 입국심사                                                                                        | 이분탐색    | 🟠Lv.3  | [풀이](https://blog.naver.com/gamakk2/223808371758) |

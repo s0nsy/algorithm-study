@@ -30,7 +30,7 @@ class Solution{
          int end = commands[i][1];
          int k = commands[i][2]-1;
 
-         int[] cut = Arrays.copyOfRange(array, start, end);
+         int[] cut = Arrays.copyOfRange(array, start, end); // 배열 복사 메서드 Arrays.copyOfRagne(복사할 배열, 복사 시작 인덱스, 복사 끝낼 인덱스)
          Arrays.sort(cut);
 
          answer[i]= cut[k];
